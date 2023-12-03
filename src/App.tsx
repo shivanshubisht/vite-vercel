@@ -98,7 +98,7 @@ function App() {
             The time taken by edge was {`${data[0]?.timeTaken.toFixed(5)}`}
           </h1>
           <h1>{data[1]?.message}</h1>
-          <h1>The time taken by edge was {`${data[1]?.timeTaken}`}</h1>
+          <h1>The time taken by lambda was {`${data[1]?.timeTaken}`}</h1>
         </>
       ) : undefined}
       <div className="card">
